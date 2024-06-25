@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/CSS/registre.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="register.html">
+        <label for="NombreApellido">Nombre y apellido</label>
+        <input type="text" name="NombreApellido" id="NombreApellido">
+        
+        <label for="UserName">Nombre del usuario</label>
+        <input type="text" name="UserName" id="UserName">
+        
+        <label for="mail">Email</label>
+        <input type="text" name="mail" id="mail">
+        
+        <label for="FechaNacimiento">Fecha de nacimiento</label>
+        <input type="date" name="FechaNacimiento" id="FechaNacimiento">
+        
+        <label for="Domicilio">Domicilio</label>
+        <input type="text" name="Domicilio" id="Domicilio">
+        
+        <label for="userProfile">Selecione un Perfil</label>
+        <select name="userProfile">
+            <option value="compra">Comprador </option>
+            <option value="venta">Vendedor </option>
+        </select>
+        <div class="intereses">
+            <p>Interese</p>
+            <label><input type="checkbox" name="intereses" value="electro"> Electro</label>
+            <label><input type="checkbox" name="intereses" value="moda"> Moda</label>
+            <label><input type="checkbox" name="intereses" value="hogar"> Hogar</label>
+            <label><input type="checkbox" name="intereses" value="jugueteria"> Jugueteria</label>
+            <label><input type="checkbox" name="intereses" value="vidasana"> Vida Sana</label>
+          </div>
+        <label for="FondoUsuario">Foto de Perfil</label>
+        <input type="file" name="FondoUsuario" id="FondoUsuario">
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password">
+        <label for="verificar">Verificar</label>
+        <input type="password" name="verificar" id="verificar">
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>

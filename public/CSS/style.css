@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: #EAC926;
+}
+.parrafo{
+    font-size: 9px;
+    text-align: center;
+    margin: 20px 0;
+}
+.parrafo p{
+    font-size: 18px;
+}
+
+
+.products {
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.product {
+   
+    margin-bottom: 15px;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.product-info {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    align-items: baseline;
+    gap: 0.5rem;
+    
+}
+.product-info .price {
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+}
+.product-info .discount {
+    font-size: 20px;
+    color: #89ac76;
+}
+.product-info .description {
+    font-size: 14px;
+    color: #333;
+}
+#logo{
+    width: 100%;
+}
+.cafetera{
+    width: 80%;
+}
+.mac{
+    width: 80%;
+}
+.celu{
+    width: 80%;
+}
+.tv{
+    width: 80%;
+}
+#panel{
+    width: 100%;
+}
+
+.a1{
+    
+    padding: 15px;
+    font-size: 24px;
+    
+   
+}
+
+.nav-bar{
+    background-color: #EAC926;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+    
+}
+
+
+.listades1{
+    list-style-type:none;
+   
+}
+.cread{
+    list-style-type: none;
+}
+.icon{
+    display:flex;
+    align-items: center;
+}
+
+.burger-menu{
+
+    display: flex;
+    justify-content:center;
+}
+.burger-menu button{
+    color: white;
+    border-radius: 4px;
+    background-color: blue;
+}
+.listades1{
+    color: black;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+
+footer i{
+    display:flex;
+    justify-content:center;
+    color: #1259c3;
+    font-size: 30px;
+}
+.formadepago{
+    text-align: center;
+}
+.envios{
+    text-align: center;
+}
+.seguridad{
+    text-align: center;
+}
+.mensj1{
+    text-align: center;
+
+}
+.mensj2{
+    text-align: center;
+
+}
+.mensj3{
+    text-align: center;
+
+}
+
+.carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    border: 2px solid #39b54a; 
+    transform: translate(350%, -100%);
+    z-index: 2;
+}
+.carrito i {
+    font-size: 15px;
+    color: #39b54a;
+  }
+
+
+
+@media (min-width: 768px) {
+    main {
+        
+        width: 100%;
+
+    }
+    main section.products{
+        display: flex;
+        width: 100%;
+    }
+   
+        main div.products {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: baseline;
+            gap: 1rem;
+            
+        }
+    }
+
+
+
+
