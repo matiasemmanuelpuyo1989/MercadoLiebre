@@ -69,6 +69,7 @@ header{
 .product-info .description {
     font-size: 14px;
     color: #333;
+   
 }
 #logo{
     width: 100%;
@@ -168,7 +169,7 @@ footer i{
 }
 
 .carrito{
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 5px;
@@ -177,12 +178,36 @@ footer i{
     background-color: #e0e0e0;
     border-radius: 50%;
     border: 2px solid #39b54a; 
-    transform: translate(350%, -100%);
+    
     z-index: 2;
+    
+    */
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    background-color: white;
+    color: #39b54a;
+    border-color: #39b54a;
+    border-style: solid;
+    border-radius: 100%;
+    margin: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: transform 700ms;
+    z-index: 2;
+
 }
 .carrito i {
-    font-size: 15px;
+    
+    font-size: 20px;
     color: #39b54a;
+    
+    
+  }
+  .carrito:hover{
+    cursor: pointer;
+    transform: rotate(-90deg);
   }
 
 
@@ -208,6 +233,7 @@ footer i{
             
         }
     }
+    
 
 
 

@@ -8,7 +8,7 @@ app.get("/",(req, res)=>{
     res.sendFile(path.resolve("views/home.html"));
 });
 
-app.listen(3000, (err) => console.log("Server run: http://www.localhost:3000"))
+app.listen(3030, (err) => console.log("Server run: http://www.localhost:3030"))
 
 app.use(express.static("./public"));
 
