@@ -21,7 +21,7 @@
   <body>
     <header>
       <link rel="stylesheet" href="/CSS/style.css" />
-      <link rel="stylesheet" href="/CSS/register.css" />
+      <link rel="stylesheet" href="/CSS/registre.css" />
       <img id="logo" src="/images/logo-mercado-liebre.svg" />
       <img id="panel" src="/images/img-home-banner.jpg" />
 
@@ -64,6 +64,7 @@
       </div>
     </header>
 <body>
+  
     <form method="post" action="/">
         <label for="NombreApellido">Nombre y apellido</label>
         <input type="text" name="NombreApellido" id="NombreApellido">
@@ -81,10 +82,10 @@
         <input type="text" name="Domicilio" id="Domicilio">
         
         <label for="userProfile">Selecione un Perfil</label>
-        <select name="userProfile">
-            <option value="compra">Comprador </option>
-            <option value="venta">Vendedor </option>
-        </select>
+        <div>
+          <label><input type="checkbox" name="comprador" value="comprador"> Comprador</label>
+          <label><input type="checkbox" name="vendedor" value="vendedor"> Vendedor</label>
+        </div>
         <div class="intereses">
             <p>Interese</p>
             <label><input type="checkbox" name="intereses" value="electro"> Electro</label>

@@ -1,29 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/CSS/login.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>Mercado liebre</title>
+    <script
+      src="https://kit.fontawesome.com/03e63e3d58.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <link rel="stylesheet" href="/CSS/style.css">
+      <link rel="stylesheet" href="/CSS/registre.css">
+      <link rel="stylesheet" href="/CSS/login.css">
+      <img id="logo" src="/images/logo-mercado-liebre.svg" />
+      <img id="panel" src="/images/img-home-banner.jpg" />
+
+      <div class="buscador">
+        <input type="search" placeholder="Buscar" />
+        <button class="icon"><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="parrafo">
+        <p class="cyt">
+          <i class="fas fa-hand-holding-usd">
+            Compra en cuostas y con tarjeta de credito</i
+          >
+        </p>
+      </div>
+
+      <nav class="nav-bar">
+        <ul class="listades1">
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Tiendas Oficiales</a></li>
+          <li><a href="#">Vender</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <br />
+          <li>
+            <a href="register">Creá tu cuenta</a
+            ><i id="cut" class="fa-solid fa-address-card"></i>
+          </li>
+          <li>
+            
+            <a href="login">Ingresá</a>
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </li>
+          <li>
+            <a href="#">Mis compras</a><i class="fa-solid fa-cart-shopping"></i>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu">
+        <button><i class="fas fa-bars"></i></button>
+      </div>
+    </header>
 <body>
-    <div class="container">
-        
-      <form action="resultado.html" method="POST">
-        <p class="nombre">
-          <!-- campo para el nombre -->
-          <label for="nombre"></label>
-          <input type="text" placeholder="Usuario" id="nombre" name="nombre" required>
-        </p>
-        <p>
-          <!-- campo para la contraseña -->
-          <label for="password"></label>
-          <input type="password" placeholder="Contraseña" id="password" name="password" required>
-        </p>
-        <button type="submit">Iniciar Sesion</button>
-        <button type="submit">Regresar</button>
-        
-      </form>
-    </div>
+  <div class="container">
+    <form action="/" method="POST">
+      <p class="nombre">
+        <label for="nombre"></label>
+        <input type="text" placeholder="Usuario" id="nombre" name="nombre" required>
+      </p>
+      <p id="nombreError" class="error-message">El nombre debe tener al menos 2 caracteres.</p>
+      <p>
+        <label for="password"></label>
+        <input type="password" placeholder="Contraseña" id="password" name="password" required>
+      </p>
+      <button class="botonI" type="submit">Iniciar Sesión</button>
+      <a href="/home.html" class="boton">Regresar</a>
+    </form>
+  </div>
 </body>
 </html>
