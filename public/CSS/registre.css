@@ -1,6 +1,6 @@
 
 form{
-    background-color: white;
+    background-color:rgb(190, 189, 189);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -56,4 +56,42 @@ input[type="checkbox"]:checked + label:after {
     left: 0.1em;
     font-size: 1em;
     color: white;
+}
+.enviar{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    
+    color: rgb(0, 238, 255);
+    
+    ;
+}
+.enviar:hover {
+    background-color: #0022AA;
+}
+.borrar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(0, 238, 255);
+}
+
+.borrar:hover {
+    background-color: #0022AA;
 }
