@@ -268,11 +268,11 @@ div.carrito{
         justify-content: space-around;
         padding: 20px;
         background-color: rgb(109, 159, 189);
-        border-top: 1px solid #ccc;
+        
     }
     
     footer section {
-        text-align: center;
+       
         flex: 1;
         padding: 10px;
     }
